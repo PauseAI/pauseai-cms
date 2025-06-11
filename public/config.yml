@@ -89,3 +89,22 @@ collections:
             fields:
               - { name: "key", label: "Key", widget: "string" }
               - { name: "value", label: "Value", widget: "string" }
+  - label: "Quotes"
+    description: "Shown on pauseai.info/quotes"
+    name: "quotes"
+    files:
+      - label: "PauseAI Quotes"
+        name: "pauseai"
+        file: "src/routes/quotes/data.json"
+        fields:
+          - label: Quotes
+            name: quotes
+            widget: list
+            fields:
+              - { name: "background", label: "Background", widget: "string" }
+              - { name: "color", label: "Color", widget: "string", required: false }
+              - { name: "text", label: "Text", widget: "string" }
+              - { name: "author", label: "Author", widget: "string" }
+              - { name: "author_description", label: "Author Description", widget: "string" }
+              - { name: "padding", label: "Padding", widget: "string", required: false }
+              - { name: "notice", label: "Notice", widget: "string", required: false }
