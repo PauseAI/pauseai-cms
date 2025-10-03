@@ -17,6 +17,8 @@ collections:
     folder: "src/posts"
     create: true
     slug: "{{fields.slug}}"
+    media_folder: "../../src/assets/images"
+    public_folder: "/"
     fields:
       - name: "title"
         label: "Title"
