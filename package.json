@@ -11,14 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "darkreader": "^4.9.109",
-    "decap-cms-app": "^3.8.4",
-    "prettier": "^3.6.2",
+    "darkreader": "^4.9.105",
+    "decap-cms-app": "^3.8.1",
+    "prettier": "^3.5.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "vite": "^6.3.6",
-    "vitest": "^3.2.4"
+    "vite": "^6.3.5",
+    "vitest": "^3.2.3"
   }
 }
