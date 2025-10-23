@@ -50,9 +50,38 @@ collections:
     name: "communities"
     format: "json_tabs"
     files:
-      - label: "PauseAI communities"
-        name: "pauseai"
+      - label: "Local communities"
+        name: "local"
         file: "src/routes/communities/pauseai-communities.json"
+        fields:
+          - label: Communities
+            name: communities
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Latitude,
+                  name: lat,
+                  widget: number,
+                  value_type: float,
+                  step: 0.0001,
+                }
+              - {
+                  label: Longitutde,
+                  name: lon,
+                  widget: number,
+                  value_type: float,
+                  step: 0.0001,
+                }
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  hint: "**Available placeholders:** $$DISCORD_GLOBAL$$, $$DISCORD_US$$, $$DISCORD_GERMANY$$, $$DISCORD_FRANCE$$, $$WHATSAPP_ITALY$$",
+                }
+      - label: "National chapters"
+        name: "national"
+        file: "src/routes/communities/national-chapters.json"
         fields:
           - label: Communities
             name: communities
