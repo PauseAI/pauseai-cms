@@ -12,8 +12,8 @@ importers:
         specifier: ^4.9.114
         version: 4.9.114
       decap-cms-app:
-        specifier: 3.8.1
-        version: 3.8.1(@types/hoist-non-react-statics@3.3.7(@types/react@19.2.7))(@types/node@24.10.1)(@types/react@19.2.7)(decap-cms-ui-auth@3.3.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(decap-cms-lib-auth@3.0.6(immutable@3.8.2)(lodash@4.17.21)(uuid@8.3.2))(decap-cms-ui-default@3.5.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react@18.3.1))(graphql@15.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^3.9.0
+        version: 3.9.0(@types/hoist-non-react-statics@3.3.7(@types/react@19.2.7))(@types/node@24.10.1)(@types/react@19.2.7)(graphql@15.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       prettier:
         specifier: ^3.7.3
         version: 3.7.3
@@ -785,8 +785,8 @@ packages:
       supports-color:
         optional: true
 
-  decap-cms-app@3.8.1:
-    resolution: {integrity: sha512-sDnDIFYJNRnLkUl9zcjMG565X7cROrsUd+k5Koh26XIg50ti32fm0R+OihjlTkyqBB6jreQl6LvQLU39hIfCLw==}
+  decap-cms-app@3.9.0:
+    resolution: {integrity: sha512-fo6PY0/SQ2Tw72bmMG+7gtGhJ6cycoCRwdDg932+KZRQvi4Mc6hzd2uLYpIQOl0S8yOUU4qnu4EfhSsNpKMYwg==}
     peerDependencies:
       react: ^19.1.0
       react-dom: ^19.1.0
@@ -3190,7 +3190,7 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  decap-cms-app@3.8.1(@types/hoist-non-react-statics@3.3.7(@types/react@19.2.7))(@types/node@24.10.1)(@types/react@19.2.7)(decap-cms-ui-auth@3.3.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(decap-cms-lib-auth@3.0.6(immutable@3.8.2)(lodash@4.17.21)(uuid@8.3.2))(decap-cms-ui-default@3.5.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react@18.3.1))(graphql@15.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  decap-cms-app@3.9.0(@types/hoist-non-react-statics@3.3.7(@types/react@19.2.7))(@types/node@24.10.1)(@types/react@19.2.7)(graphql@15.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@emotion/react': 11.14.0(@types/react@19.2.7)(react@18.3.1)
       '@emotion/styled': 11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1)
@@ -3214,6 +3214,7 @@ snapshots:
       decap-cms-lib-util: 3.3.1(immutable@3.8.2)(lodash@4.17.21)
       decap-cms-lib-widgets: 3.2.1(immutable@3.8.2)(lodash@4.17.21)
       decap-cms-locales: 3.5.0
+      decap-cms-ui-auth: 3.3.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(decap-cms-lib-auth@3.0.6(immutable@3.8.2)(lodash@4.17.21)(uuid@8.3.2))(decap-cms-ui-default@3.5.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react@18.3.1)
       decap-cms-ui-default: 3.5.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       decap-cms-widget-boolean: 3.2.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(decap-cms-ui-default@3.5.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react-immutable-proptypes@2.2.0(immutable@3.8.2))(react@18.3.1)
       decap-cms-widget-code: 3.3.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(codemirror@5.65.20)(decap-cms-ui-default@3.5.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.7)(react@18.3.1))(@types/react@19.2.7)(react@18.3.1))(lodash@4.17.21)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3241,7 +3242,6 @@ snapshots:
       - '@types/hoist-non-react-statics'
       - '@types/node'
       - '@types/react'
-      - decap-cms-ui-auth
       - graphql
       - react-native
       - supports-color
