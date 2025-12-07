@@ -8,7 +8,8 @@ This project is a Decap CMS configuration, enhanced with several plugins, for th
 
 - Based on [Decap CMS](https://decapcms.org/)
 - Uses [Vite](https://vitejs.dev/) for development and building
-- **GitHub Apps Authentication**: Uses [decap-proxy-github-apps](https://github.com/PauseAI/decap-proxy-github-apps) for GitHub Apps authentication instead of classic OAuth
+- **GitHub Apps Authentication**
+    - Uses [decap-proxy-github-apps](https://github.com/PauseAI/decap-proxy-github-apps) for GitHub Apps authentication instead of classic OAuth
 - **Logo Plugin**
     - Adds a custom logo to the navigation bar.
 - **Prettier Plugin**:
