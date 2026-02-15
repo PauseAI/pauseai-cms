@@ -12,9 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "clean-stack": "5.2.0",
-    "darkreader": "^4.9.114",
-    "decap-cms-app": "^3.9.0",
-    "prettier": "^3.7.3",
+    "darkreader": "^4.9.120",
+    "decap-cms-app": "^3.10.0",
+    "prettier": "^3.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
