@@ -43,6 +43,10 @@ collections:
         label: "Date"
         widget: "datetime"
         required: false
+      - name: "news"
+        label: "News"
+        widget: "boolean"
+        required: false
       - name: "body"
         widget: "markdown"
   - label: "Communities"
