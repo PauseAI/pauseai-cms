@@ -25,6 +25,8 @@ This project is a Decap CMS configuration, enhanced with several plugins, for th
 - **JSON Tabs Plugin**:
     - Registers a custom format named `json_tabs` for `.json` files.
     - This format ensures that JSON files are saved with tab indentation.
+- **Image Error Plugin**:
+    - Rewrites failed same-origin image URLs by prefixing their path.
 - **Dark Mode**: Implements dark mode support using [Darkreader](https://darkreader.org/).
 
 ## Collections

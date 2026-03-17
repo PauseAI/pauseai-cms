@@ -5,6 +5,7 @@ import { registerPlugin as registerDecapLogo } from "./decap-logo/index";
 import { registerPlugin as registerDecapPrettier } from "./decap-prettier";
 import { registerPlugin as registerDecapSlug } from "./decap-slug";
 import { registerPlugin as registerDecapJsonDict } from "./decap-json-dict";
+import { registerPlugin as registerDecapImgError } from "./decap-img-error";
 
 const DEBUG = false;
 
@@ -19,6 +20,7 @@ registerDecapLogo({
   darkSelector: "html[data-darkreader-scheme]",
 });
 registerDecapJsonDict(CMS);
+registerDecapImgError({ prefix: "https://pauseai.info/api/images" });
 CMS.registerCustomFormat("json_tabs", "json", {
   fromFile: (file) => JSON.parse(file),
   toFile: (data) => JSON.stringify(data, null, "\t"),
