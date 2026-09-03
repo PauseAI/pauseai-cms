@@ -27,6 +27,9 @@ This project is a Decap CMS configuration, enhanced with several plugins, for th
     - This format ensures that JSON files are saved with tab indentation.
 - **Image Error Plugin**:
     - Rewrites failed same-origin image URLs by prefixing their path.
+- **Open on GitHub Plugin**:
+    - Adds an "Open on GitHub" button to the entry editor toolbar, next to the profile menu.
+    - Links directly to the entry's file, resolving the correct branch: the base branch for published entries, or the `cms/<collection>/<slug>` editorial workflow branch for drafts.
 - **Dark Mode**: Implements dark mode support using [Darkreader](https://darkreader.org/).
 
 ## Collections
