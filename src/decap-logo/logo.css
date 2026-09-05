@@ -1,11 +1,7 @@
-:root {
-  --logo-url: url("/logo-light.svg");
-}
-
 .custom-logo {
   display: block;
   height: 100%;
-  background-image: var(--logo-url);
+  background-image: url("/logo-light.svg");
   background-size: auto 80%;
   background-repeat: no-repeat;
   background-position: center left;

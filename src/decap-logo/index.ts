@@ -33,7 +33,7 @@ export function registerPlugin(config: Config) {
   sheet.insertRule(`.custom-logo { width: ${config.width}; }`);
   if (config.supportDarkMode && config.darkSelector) {
     sheet.insertRule(
-      `${config.darkSelector} { --logo-url: url("/logo-dark.svg"); }`
+      `${config.darkSelector} .custom-logo { background-image: url("/logo-dark.svg"); }`
     );
   }
   document.adoptedStyleSheets.push(sheet);
