@@ -1,2 +1,6 @@
 ﻿allowBuilds:
   esbuild: true
+
+overrides:
+  # remark-parse 6 / mdast-util-to-hast 4 (via decap-cms-widget-markdown) pin trim 0.0.1; 0.0.3 is the patched release, same API.
+  trim@<0.0.3: 0.0.3
