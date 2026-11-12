@@ -3,4 +3,5 @@
 
 overrides:
   # remark-parse 6 / mdast-util-to-hast 4 (via decap-cms-widget-markdown) pin trim 0.0.1; 0.0.3 is the patched release, same API.
+  # Remove once decap-cms-app no longer pulls in remark-parse 6 (e.g. after a decap-cms-app upgrade).
   trim@<0.0.3: 0.0.3
